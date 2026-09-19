@@ -124,8 +124,3 @@ The user reported that all six planned Basys 3 hardware checks passed: RESET ent
 - The physical reset button is passed directly to the **synchronous** reset inputs in this teaching design. A future production-oriented revision should address asynchronous reset-button conditioning/reset-release requirements and synchronizer placement attributes such as `ASYNC_REG`.
 - The `default` branch provides an RTL recovery value for an unexpected enum state. Do not assume that synthesized safe-state recovery is guaranteed after automatic FSM re-encoding without explicitly verifying the implementation/tool settings.
 
-## Suggested repository name and description
-
-**Name:** `basys3-moore-fsm-button-controller`
-
-**GitHub description:** `SystemVerilog 3-state Moore FSM on Basys 3 with three debounced button inputs, LED status outputs, simulation, one-hot synthesis, and hardware verification.`
