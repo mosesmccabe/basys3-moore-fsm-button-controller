@@ -1,10 +1,10 @@
 # Basys 3 Moore FSM Button Controller
 
-**Days 9–10 FPGA project | SystemVerilog · Vivado · Basys 3 (Artix-7)**
+**FPGA project | SystemVerilog · Vivado · Basys 3 (Artix-7)**
 
-A three-state **Moore finite-state machine** controlled by three independently conditioned pushbuttons. A START event enters RUN; a FINISHED event enters DONE; and a CLEAR event returns the controller to IDLE. Two LEDs indicate the current operating mode. The project progresses from an FSM-only simulation and synthesis exercise (Day 9) to an integrated, programmed FPGA implementation (Day 10).
+A three-state **Moore finite-state machine** controlled by three independently conditioned pushbuttons. A START event enters RUN; a FINISHED event enters DONE; and a CLEAR event returns the controller to IDLE. Two LEDs indicate the current operating mode. The project progresses from an FSM-only simulation and synthesis exercise  to an integrated, programmed FPGA implementation .
 
-**Status:** Behavioral simulation, synthesis, and six planned on-board functional checks completed. The user's Day 10 Vivado report showed **75 slice registers**, matching the pre-synthesis estimate.
+**Status:** Behavioral simulation, synthesis, and six planned on-board functional checks completed. The user's  Vivado report showed **75 slice registers**, matching the pre-synthesis estimate.
 
 ## Hardware behavior
 
